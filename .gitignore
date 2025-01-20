@@ -1,0 +1,85 @@
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled C extensions
+*.so
+
+# Ignore logs and debug files
+*.log
+*.out
+*.err
+
+# Ignore distribution/packaging
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+sdist/
+wheels/
+
+# Ignore pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore PyInstaller files
+# Usually these files are written by PyInstaller during packaging
+*.manifest
+*.spec
+
+# Ignore unit test and coverage reports
+.coverage
+.tox/
+.nox/
+.cache/
+coverage.xml
+*.cover
+*.py,cover
+
+# Ignore IntelliJ IDEA files
+.idea/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore macOS system files
+*.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Ignore large or unnecessary binary files
+*.dll
+*.lib
+*.exe
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore specific files for Git
+.git/
+.gitignore
+
+# Ignore custom local files
+*.env
+.env.local
